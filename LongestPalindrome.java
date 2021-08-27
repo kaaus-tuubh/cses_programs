@@ -31,7 +31,7 @@ class LongestPalindrome {
     }
 
     private static int middleOut(String s, int right, int left) {
-        while( right<s.length() && left>=0 && s.charAt(right) == s.charAt(left)) {
+        while(right<s.length() && left>=0 && s.charAt(right) == s.charAt(left)) {
             right++;
             left--;
         }
